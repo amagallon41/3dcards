@@ -4,3 +4,7 @@ body {
     background-color: darkcyan;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+video {
+    border: 10px solid black;
+}
