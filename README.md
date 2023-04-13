@@ -12,3 +12,8 @@
 - Game Design
 - Drifting
 - Forklift Certified
+
+
+## Citations
+*[Dave Desandro Card Flip](https://codepen.io/desandro/pen/LmWoWe)
+*[3D Product Cards by Zac](https://codepen.io/zremboldt/pen/ZvQjOG)
