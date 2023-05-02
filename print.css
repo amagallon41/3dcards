@@ -1,16 +1,27 @@
 /* Print Stylesheet */
-@media print{
-    body {
-        background-color: none;
-        font-family: serif;
-        font-size: 1.5em;
+    @media print {
+    
+        body {
+            /* serif font for easier reading */
+            font-family: Arial, Helvetica, sans-serif;
+            /* increase font size */
+            font-size: 1.25em;
+    }
+    
+        /* printer anchor links */
+        a[href]::after {
+            content: " " attr(href); 
+        }
+    
+        /* turn paragraphs into colums */
+        .face p {
+            columns: 2;
+        }
+    
+        @page {
+            /* reset page margins */
+            margin: .25in;
+        }
+    
     }
 
-    a[href]::after {
-        content: " ---> " attr(href);
-    }
-
-    video {
-        display:none;
-    }
-}

@@ -5,7 +5,7 @@
 
 /* layout */
 body {
-    background-color: black;
+    background-color: #F1F6F9;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,11 +48,11 @@ body {
 }
 
 .front {
-    background: coral;
+    background: #394867;
 }
 
 .back {
-    background: cornflowerblue;
+    background: #9BA4B5;
     /* flip it default   */
     transform: rotateY(180deg);
 }
@@ -70,7 +70,8 @@ section img {
 }
 
 section h2, section p {
-    font-family: 'Sharpie-Regular';
+    font-family: 'Satoshi-Regular';
+    color: #212A3E;
 }
 
 /* Media Query for Mobile */
