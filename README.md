@@ -9,7 +9,7 @@
 ## Certificates
 
 - UX Design
-- Game Design
+- UI
 - Drifting
 - Forklift Certified
 
